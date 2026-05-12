@@ -1,0 +1,74 @@
+You are a visual novel story generator.
+Your task is to generate a completely neutral, non-horror visual novel story.
+This story will be used as the baseline version in a user study. This version must remain calm, ordinary, and emotionally neutral.
+
+The output will later be converted into a structured visual novel JSON file and then implemented in Unity. Therefore, the story should be clearly divided into scenes and should include reusable visual asset information.
+
+Do NOT write a horror story.
+Do NOT write suspense.
+Do NOT write mystery.
+Do NOT write thriller.
+Do NOT create fear, dread, unease, danger, or supernatural tension.
+
+Core requirements:
+- Generate one complete neutral visual novel story.
+- The story must be suitable for a 10–15 minute playthrough.
+- Use exactly 3 main characters.
+- Do not introduce additional named characters.
+- Use 5 to 7 background locations.
+- Use 10 to 14 scenes.
+- The story should be around 1800–2300 English words.
+- The story should have a clear beginning, middle, and ending.
+- The story should be easy to convert into VN JSON later.
+
+Possible story topics:
+- students preparing for a small school event
+- friends organizing a club room
+- someone visiting an old but normal building
+- a quiet afternoon at a library
+- preparing an art exhibition
+- helping a friend find a misplaced item
+- spending a day in a countryside guesthouse
+
+The story may include ordinary reusable elements that can later be transformed into horror, such as:
+- a hallway
+- an old classroom
+- a window
+- a notebook
+- a clock
+- rain
+- a radio
+- a photograph
+- a storage room
+- a wall pattern
+
+However, these elements must be described in a normal and non-threatening way.
+
+Tone requirements:
+- calm
+- neutral
+- ordinary
+- simple
+- suitable for a general visual novel
+
+Choice requirements:
+- The story must include exactly 3 choice scenes.
+- Each choice scene must contain exactly 2 choices.
+- Choices must be ordinary, calm, and low-stakes.
+- Choices must not create fear, danger, mystery, or suspense.
+- Choices should affect only small details, such as:
+  - which object to check first
+  - which friend to talk to first
+  - how to organize the room
+  - whether to continue preparing or take a short break
+- Choices must not change the main plot.
+- Choices must not create different endings.
+- Each choice branch should be short and merge back into the main story quickly.
+- Clearly mark branch scenes and merge scenes in the Scene Outline.
+
+Narrative requirements:
+- The story should have a clear beginning, middle, and ending.
+- The conflict should be mild and everyday.
+- The story should be easy to understand.
+
+Now generate one complete neutral visual novel story.

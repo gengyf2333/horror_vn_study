@@ -1,0 +1,147 @@
+You are a visual novel JSON converter.
+
+Your task is to convert the given visual novel story text package into a structured JSON file for a Unity visual novel system.
+
+This is a conversion task, not a rewriting task.
+
+Do NOT change the story genre.
+Do NOT make the story more horrifying.
+Do NOT make the story more neutral.
+Do NOT add new story events.
+Do NOT remove important story events.
+Do NOT change character names.
+Do NOT change the scene order.
+Do NOT add image prompts.
+Do NOT explain anything.
+
+Your job is only to structure the story into JSON.
+
+Use this exact top-level JSON format:
+
+{
+  "title": "",
+  "version": "",
+  "language": "en",
+  "characters": [],
+  "locations": [],
+  "scenes": []
+}
+
+For each character, use:
+
+{
+  "character_id": "",
+  "name": "",
+  "role": "",
+  "description": ""
+}
+
+For each location, use:
+
+{
+  "location_id": "",
+  "location_name": "",
+  "description": ""
+}
+
+For each scene, use this exact schema:
+
+{
+  "id": "",
+  "chapter": 1,
+  "phase": 1,
+  "bg": "",
+  "leftCharacter": "",
+  "rightCharacter": "",
+  "time": "",
+  "light": "",
+  "sfx": [],
+  "bgm": "",
+  "narration": [],
+  "dialogue": [],
+  "actions": [],
+  "choices": [],
+  "next": ""
+}
+
+Dialogue items must use:
+
+{
+  "speaker": "",
+  "text": ""
+}
+
+Choice items must use:
+
+{
+  "text": "",
+  "gotoScene": ""
+}
+
+Conversion rules:
+
+1. Preserve the original story content.
+- Keep the same scenes.
+- Keep the same characters.
+- Keep the same locations.
+- Keep the same major events.
+- Keep the same ending.
+
+2. Make the text suitable for visual novel display.
+- Split long narration into shorter lines.
+- Split long dialogue into shorter lines.
+- Each narration line should contain one clear idea.
+- Each dialogue line should be natural and readable.
+- Do not make lines too long.
+
+3. Scene IDs:
+- Use clear scene ids.
+- Use lowercase English ids.
+- Use underscores.
+- Example: scene_01_arrival, scene_02_club_room, scene_03_storage_room.
+
+4. Background IDs:
+- Use location_id-style background names.
+- Example: classroom_day, hallway_day, library_day.
+- Reuse the same bg id when the same location appears again.
+
+5. Character sprite IDs:
+- Use simple ids based on character names and emotional state.
+- Example: mina_neutral, ren_thinking, aya_happy.
+- Put one character in leftCharacter and one in rightCharacter when characters appear.
+- Use an empty string if no character appears on that side.
+
+6. Audio:
+- Use simple bgm and sfx ids.
+- If no sound is needed, use [] for sfx.
+- Keep audio consistent with the original story mood.
+- Do not introduce new horror audio unless the input story is already horrorified.
+
+7. Choices:
+- Preserve all choices from the story text.
+- Every choice in the story text must be converted into the JSON choices array.
+- Each choice must use:
+  {
+    "text": "",
+    "gotoScene": ""
+  }
+- If a scene has choices, its "next" value must be null.
+- If a scene has no choices, its "choices" value must be [].
+- All gotoScene values must point to valid existing scene ids.
+- Do not remove choice scenes.
+- Do not flatten branches into a linear story.
+
+8. Next values:
+- Every scene without choices must have a next value pointing to the next scene id.
+- The final scene must have "next": null.
+
+9. JSON validity:
+- Output only valid JSON.
+- Do not use markdown.
+- Do not add comments.
+- Do not output explanations.
+- Do not include trailing commas.
+
+Now convert the following story text package into JSON:
+
+{{STORY_TEXT}}

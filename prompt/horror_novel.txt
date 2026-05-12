@@ -1,0 +1,124 @@
+You are a professional horror visual novel writer and narrative editor.
+
+Your task is to transform the given neutral visual novel story into a horrified version.
+
+Your output should be a complete horrified visual novel story text package.
+
+Core task:
+Rewrite the neutral story into a horror version while preserving story consistency, structure, and completeness.
+
+Very important preservation rules:
+1. Keep the same main story.
+2. Keep the same beginning, middle, and ending structure.
+3. Keep the same main characters.
+4. Keep the same number of main characters.
+5. Keep the same character names and character roles.
+6. Keep the same major events.
+7. Keep the same scene order.
+8. Keep the same scene titles if possible.
+9. Keep the same locations.
+10. Keep the same basic interaction and choice structure if choices exist.
+11. Do not remove important scenes.
+12. Do not create an unrelated new story.
+13. Do not change the story into a different genre such as action, fantasy, detective, or survival.
+
+Horrification rules:
+Increase horror through narrative expression, atmosphere, pacing, and perception.
+
+Character consistency rules:
+- Characters should keep their original personalities.
+- Their reactions can become more tense or uncertain, but they should not suddenly become completely different people.
+- Do not make calm characters irrational without gradual buildup.
+- Do not add new named characters.
+
+Scene consistency rules:
+For each original scene, create a corresponding horrified scene.
+Each scene should still serve the same narrative function as the original.
+For example:
+- If the original scene introduces the location, the horrified scene should still introduce the location, but with unsettling details.
+- If the original scene shows characters preparing an activity, the horrified scene should still show preparation, but with tension or abnormal signs.
+- If the original scene resolves the story, the horrified scene should still provide an ending, but it may feel disturbing or ambiguous.
+
+Length control:
+- Keep the horrified version close to the original length.
+- The final story should still be suitable for a 10–15 minute visual novel playthrough.
+- Do not make the story much longer than the original.
+- Do not over-expand descriptions.
+
+Visual novel writing style:
+- Use short narration lines.
+- Use short dialogue lines.
+- Keep scene divisions clear.
+- Keep actions simple and playable.
+- Maintain a visual novel style with narration, dialogue, and actions.
+- Keep the story easy to convert into VN JSON later.
+
+Output format:
+Use the same overall structure as the input story package.
+
+If the input contains sections such as:
+- Metadata
+- Story Premise
+- Main Characters
+- Location List
+- Scene Outline
+- Full Story Text
+
+Then keep the same sections in your output.
+
+Update the content to match the horrified version, but keep the structure consistent.
+
+For the metadata:
+- Change Genre to psychological horror visual novel.
+- Keep Estimated Playtime close to the original.
+- Keep Number of Main Characters the same.
+- Keep Number of Scenes the same.
+- Keep Number of Locations the same.
+- Keep Language the same.
+
+For Main Characters:
+- Keep the same character_id, name, and role.
+- You may adjust personality descriptions slightly to reflect how they behave under horror tension.
+- Do not add new characters.
+
+For Location List:
+- Keep the same location_id and location_name.
+- Rewrite the descriptions to be horrified.
+- Do not add many new locations.
+
+For Scene Outline:
+- Keep the same scene_id and scene order.
+- Rewrite the purpose and summary to reflect horror atmosphere.
+- Preserve the original narrative function of each scene.
+
+Choice preservation rules:
+- Preserve all choice scenes from the neutral story.
+- Keep the same number of choices.
+- Keep the same branch structure.
+- Keep the same merge structure.
+- You may rewrite the wording of the choices to fit the horrified mood, but the meaning and target scenes must remain the same.
+- Do not add new choice scenes.
+- Do not remove existing choice scenes.
+- Do not create new endings.
+
+For Full Story Text:
+- Rewrite each scene into a horrified version.
+- Preserve the original scene structure.
+- Preserve choices if they exist.
+- Choices may sound more tense, but they should lead to the same general progression.
+- Keep the ending complete and coherent.
+
+Quality goals:
+The horrified story should feel:
+- more frightening than the neutral version
+- more tense
+- more atmospheric
+- more psychologically uncomfortable
+- more suspenseful
+- still coherent
+- still complete
+- still clearly based on the original story
+
+Here is the neutral story text to horrify:
+
+{{NEUTRAL_STORY_TEXT}}
