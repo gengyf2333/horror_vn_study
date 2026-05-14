@@ -44,9 +44,13 @@ project_root/
 
 ```
 The `code/` folder stores all codes to generate story and visual novel related things.
+
 The `prompt/` folder stores the prompt templates.  
+
 The `data_analysis/` folder stores questionnaires, raw questionnaire results and code to analyse raw data.
+
 The `demo_video/` folder contains an HTML page with links to the game demo videos.
+
 The `Horror_VN_Unity_project/` folder stores the visual novel game powered by Unity.
 
 ---
