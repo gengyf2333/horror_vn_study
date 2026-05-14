@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Horror Visual Novel Demo</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f4f6f8;
+      color: #1f2933;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 40px 24px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 34px;
+      letter-spacing: 1px;
+      margin-bottom: 20px;
+    }
+
+    .description {
+      font-size: 18px;
+      color: #4b5563;
+      line-height: 1.6;
+      max-width: 900px;
+      margin: 0 auto 45px auto;
+    }
+
+    h2 {
+      text-align: left;
+      font-size: 26px;
+      margin-bottom: 24px;
+    }
+
+    .video-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 32px;
+    }
+
+    .video-card {
+      background: white;
+      border-radius: 8px;
+      padding: 18px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    }
+
+    video {
+      width: 100%;
+      border-radius: 4px;
+      background: black;
+    }
+
+    .caption {
+      margin-top: 12px;
+      font-size: 17px;
+      color: #374151;
+    }
+
+    @media (max-width: 800px) {
+      .video-grid {
+        grid-template-columns: 1fr;
+      }
+
+      h1 {
+        font-size: 26px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Can LLMs Generate Horror Atmosphere in Visual Novels?</h1>
+
+    <p class="description">
+      This page showcases supplementary demo videos for our LLM-based visual novel system, including the neutral version and the horrorified version used in the preliminary user study.
+    </p>
+
+<h2>Video Demonstrations</h2>
+
+<div class="video-grid">
+  <div class="video-card">
+    <h3>Neutral Version Demo</h3>
+    <p>
+      <a href="https://drive.google.com/file/d/1mJ2Goz-2ZjPMuX7vBDES2PMb_pXRzGww/view?usp=sharing" target="_blank">
+        Open Neutral Version Demo
+      </a>
+    </p>
+  </div>
+
+  <div class="video-card">
+    <h3>Horrorified Version Demo</h3>
+    <p>
+      <a href="https://drive.google.com/file/d/15Y08W4JqgEqk6fA2fyx9b4ltcNJ1rD_R/view?usp=sharing" target="_blank">
+        Open Horrorified Version Demo
+      </a>
+    </p>
+  </div>
+</div>
+</body>
+</html>
