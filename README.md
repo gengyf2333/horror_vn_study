@@ -11,6 +11,10 @@ The project has two main parts:
 
 ---
 
+
+
+---
+
 ## 1. Folder Structure
 
 A suggested folder structure is:
@@ -29,6 +33,9 @@ project_root/
 │   ├── convert_json.txt
 │   └── image_list.txt
 ├── data_analysis/
+│   ├── Consent Form - Google Forms.pdf
+│   ├── User Study Pre - Google Forms.pdf
+│   ├── User Study Post - Google Forms.pdf
 │   ├── User Study Pre.csv
 │   ├── User Study Post.csv
 │   ├── analyse_user_study_csv_style_prepost_only_v2.py
@@ -39,7 +46,7 @@ project_root/
 ```
 The `code/` folder stores all codes to generate story and visual novel related things.
 The `prompt/` folder stores the prompt templates.  
-The `data_analysis/` folder stores questionnaires, raw questionnaire results and code to analyse raw data
+The `data_analysis/` folder stores questionnaires, raw questionnaire results and code to analyse raw data.
 The `Horror_VN_Unity_project/` folder stores the visual novel game powered by Unity.
 
 ---
@@ -58,7 +65,7 @@ OPENAI_API_KEY = "sk-proj-xxxxxxxx"
 ---
 
 
-## 4. Generation Pipeline
+## 3. Generation Pipeline
 
 ### Step 1: Generate a neutral story
 
@@ -197,14 +204,15 @@ Character sprites are saved in the `characters/` folder.
 
 ---
 
-## 5. Using the Generated Files in Unity
+## 4. Using the Generated Files in Unity
+
+Download `Horror_VN_Unity_project/` folder.
 
 To use the generated materials in Unity:
 
-1. Copy the generated story JSON file into the Unity story data folder, such as `Assets/StreamingAssets/`.
-2. Copy generated background images into the Unity background image folder.
-3. Copy generated character sprites into the Unity character sprite folder.
-4. Make sure the asset IDs in the JSON match the image filenames.
+1. Copy the generated story JSON file into the Unity story data folder, `Assets/StreamingAssets/pre-horror`.
+2. Copy whole generated `horrorified` folder and `neutral` folder into the Unity background image folder, `Assets/Resources/pre-horror`.
+3. Make sure the asset IDs in the JSON match the image filenames. It should be the same, but please double check for safety.
 
 For example, if the JSON contains:
 
@@ -220,9 +228,13 @@ school_corridor_night.png
 mira_neutral.png
 ```
 
+After opening the Unity project, go to `Assets/Scenes/AI-chat`, waiting for panel appear and you can play the demo. There will be two versions, version 1 is horrified story, version 2 is neutral story.
+
 ---
 
-## 6. Data Analysis Pipeline
+## 5. Data Analysis Pipeline
+
+Questionnaires are stored in `data_analysis` folder.
 
 The user study analysis uses two Google Forms CSV files:
 
@@ -231,7 +243,7 @@ User Study Pre.csv
 User Study Post.csv
 ```
 
-These files should be placed in the project root folder or in the same working directory used to run the scripts.
+These files should be placed in the `data_analysis` folder or in the same working directory used to run the scripts.
 
 ---
 
@@ -317,45 +329,5 @@ This script analyses post-game GUESS scores and the horror-level rating.
 
 ---
 
-## 7. Full Recommended Workflow
-
-For generation:
-
-```bash
-python code/generate_story.py --prompt prompt/neutral_novel.txt --out outputs/story_neutral_text.txt
-python code/horrorify_story.py --prompt prompt/horror_novel.txt --input outputs/story_neutral_text.txt --out outputs/story_horrorified_text.txt
-python code/convert_story_to_json.py --prompt prompt/convert_json.txt --input outputs/story_neutral_text.txt --out outputs/story_neutral.json
-python code/convert_story_to_json.py --prompt prompt/convert_json.txt --input outputs/story_horrorified_text.txt --out outputs/story_horrorified.json
-python code/image_generate_list.py --prompt prompt/image_list.txt --input outputs/story_neutral.json --out outputs/asset_prompts_neutral.json --mode neutral
-python code/image_generate_list.py --prompt prompt/image_list.txt --input outputs/story_horrorified.json --out outputs/asset_prompts_horrorified.json --mode horrorified
-python code/generate_image.py --input outputs/asset_prompts_neutral.json --outdir outputs/images/neutral --only all
-python code/generate_image.py --input outputs/asset_prompts_horrorified.json --outdir outputs/images/horrorified --only all
-```
-
-For data analysis:
-
-```bash
-python code/analyse_user_study_csv_style_prepost_only_v2.py
-```
-
----
-
-## 8. Notes for Reviewers
-
-This repository is a research prototype. It is mainly used to generate and analyse materials for a preliminary user study on LLM-based horror visual novel generation.
-
-The key comparison is between:
-
-```text
-Neutral version     -> a non-horror visual novel story
-Horrorified version -> a horror-adapted version of the same story structure
-```
-
-The generated JSON files allow both versions to be played in the same Unity visual novel framework. This makes the two versions easier to compare in the user study.
-
-Because the story and image generation steps use generative models, exact outputs may vary between runs. For review purposes, it is recommended to keep the generated JSON files, image assets, and user study result CSV files in the repository.
 
 
-在unity里把生成好的图片放在assets--resources--pre-horror里。
-把生成的json文件放在assets--streamingassets--pre-horror里。
-打开unity后，找到assets--scenes--AI-chat。
