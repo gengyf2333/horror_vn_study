@@ -11,7 +11,7 @@ from openai import OpenAI
 OPENAI_API_KEY = "sk-proj-xxxxxxxx"
 MODEL_NAME = "gpt-5.5"
 
-DEFAULT_PROMPT_PATH = "prompt/generate_asset_prompts_single_mode.txt"
+DEFAULT_PROMPT_PATH = "prompt/image_list.txt"
 DEFAULT_INPUT_JSON_PATH = "outputs/story_neutral.json"
 DEFAULT_OUTPUT_PATH = "outputs/asset_prompts_neutral.json"
 

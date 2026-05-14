@@ -22,7 +22,7 @@ MAX_OUTPUT_TOKENS = 12000
 
 DEFAULT_PROMPT_PATH = "prompt/convert_json.txt"
 DEFAULT_INPUT_STORY_PATH = "outputs/story_neutral_text.txt"
-DEFAULT_OUTPUT_JSON_PATH = "outputs/story_neutral22.json"
+DEFAULT_OUTPUT_JSON_PATH = "outputs/story_neutral.json"
 
 
 # =========================
