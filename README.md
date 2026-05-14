@@ -9,9 +9,7 @@ The project has two main parts:
 1. **Generation pipeline**: creates the neutral and horrorified visual novel materials.
 2. **Data analysis pipeline**: analyses the pre-game and post-game questionnaire results.
 
----
-
-
+The `demo_video/` folder contains an HTML page with links to the game demo videos.
 
 ---
 
@@ -41,12 +39,14 @@ project_root/
 │   ├── analyse_user_study_csv_style_prepost_only_v2.py
 │   ├── guess_horror_prepost_only.py
 │   └── panas_prepost_only.py
+├── demo_video/
 └── Horror_VN_Unity_project/
 
 ```
 The `code/` folder stores all codes to generate story and visual novel related things.
 The `prompt/` folder stores the prompt templates.  
 The `data_analysis/` folder stores questionnaires, raw questionnaire results and code to analyse raw data.
+The `demo_video/` folder contains an HTML page with links to the game demo videos.
 The `Horror_VN_Unity_project/` folder stores the visual novel game powered by Unity.
 
 ---
