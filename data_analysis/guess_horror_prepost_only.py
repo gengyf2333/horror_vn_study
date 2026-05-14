@@ -16,8 +16,6 @@ mapeo_likert = {
     "Strongly Agree": 7,
 }
 
-# The user's professor noted that GUESS Q6 should be reversed.
-REVERSE_ENJOY_PLAYING_ITEM = True
 
 
 def read_form(path):
