@@ -1,0 +1,5 @@
+UnixTimestamp_ms;Event;Details
+1777449709702;GameStart;startstory
+1777449709715;TestStart;Unity connected
+1777449718402;ChoiceShown;ch2__ch2_s10_three_reactions_choice
+1777449721379;ChoiceSelected;scene=ch2__ch2_s10_three_reactions_choice|text=直奔黑暗|goto=ch3_rapid__ch3_re_001

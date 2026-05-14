@@ -1,0 +1,5 @@
+UnixTimestamp_ms;Event;Details
+1776840711047;GameStart;startstory
+1776840711060;TestStart;Unity connected
+1776840734446;ChoiceShown;ch2__ch2_s8_subpattern_branch
+1776840743620;ChoiceSelected;scene=ch2__ch2_s8_subpattern_branch|text=Keep watching the pattern|goto=ch3a_rapid__ch3a_s1_july_over_exhausted

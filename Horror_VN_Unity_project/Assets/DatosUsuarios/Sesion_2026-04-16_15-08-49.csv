@@ -1,0 +1,5 @@
+UnixTimestamp_ms;Event;Details
+1776319730131;GameStart;startstory
+1776319730140;TestStart;Unity connected
+1776319738594;ChoiceShown;ch2__ch2_s5_jennie_approaches_branch
+1776319740021;ChoiceSelected;scene=ch2__ch2_s5_jennie_approaches_branch|text=Hide the writing quickly|goto=ch3a_slow__ch3_s1_after_company

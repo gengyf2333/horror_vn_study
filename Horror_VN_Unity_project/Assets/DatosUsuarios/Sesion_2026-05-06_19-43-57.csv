@@ -1,0 +1,8 @@
+UnixTimestamp_ms;Event;Details
+1778064237231;GameStart;startstory
+1778064237239;TestStart;Unity connected
+1778064271738;ChoiceShown;scene_03_art_club_choice
+1778064272869;ChoiceSelected;scene=scene_03_art_club_choice|text=Check the wall clock and schedule first.|goto=
+1778064274204;ChoiceSelected;scene=scene_03_art_club_choice|text=Check the preparation notebook first.|goto=
+1778064275197;ChoiceSelected;scene=scene_03_art_club_choice|text=Check the preparation notebook first.|goto=
+1778064275421;ChoiceSelected;scene=scene_03_art_club_choice|text=Check the preparation notebook first.|goto=

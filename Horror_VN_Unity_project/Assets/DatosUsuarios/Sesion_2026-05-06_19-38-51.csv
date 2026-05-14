@@ -1,0 +1,17 @@
+UnixTimestamp_ms;Event;Details
+1778063931312;GameStart;startstory
+1778063931319;TestStart;Unity connected
+1778063938789;ChoiceShown;scene_03_art_club_choice
+1778063943278;ChoiceSelected;scene=scene_03_art_club_choice|text=Check the wall clock and schedule first.|goto=
+1778063944701;ChoiceSelected;scene=scene_03_art_club_choice|text=Check the wall clock and schedule first.|goto=
+1778063945644;ChoiceSelected;scene=scene_03_art_club_choice|text=Check the wall clock and schedule first.|goto=
+1778063945813;ChoiceSelected;scene=scene_03_art_club_choice|text=Check the wall clock and schedule first.|goto=
+1778063946014;ChoiceSelected;scene=scene_03_art_club_choice|text=Check the wall clock and schedule first.|goto=
+1778063946206;ChoiceSelected;scene=scene_03_art_club_choice|text=Check the wall clock and schedule first.|goto=
+1778063946382;ChoiceSelected;scene=scene_03_art_club_choice|text=Check the wall clock and schedule first.|goto=
+1778063946574;ChoiceSelected;scene=scene_03_art_club_choice|text=Check the wall clock and schedule first.|goto=
+1778063950254;ChoiceSelected;scene=scene_03_art_club_choice|text=Check the wall clock and schedule first.|goto=
+1778063950670;ChoiceSelected;scene=scene_03_art_club_choice|text=Check the wall clock and schedule first.|goto=
+1778063950821;ChoiceSelected;scene=scene_03_art_club_choice|text=Check the wall clock and schedule first.|goto=
+1778063951005;ChoiceSelected;scene=scene_03_art_club_choice|text=Check the wall clock and schedule first.|goto=
+1778063951423;ChoiceSelected;scene=scene_03_art_club_choice|text=Check the wall clock and schedule first.|goto=

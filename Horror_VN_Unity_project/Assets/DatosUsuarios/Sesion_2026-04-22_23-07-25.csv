@@ -1,0 +1,5 @@
+UnixTimestamp_ms;Event;Details
+1776866845980;GameStart;startstory
+1776866845990;TestStart;Unity connected
+1776866862434;ChoiceShown;ch2__ch2_s7_jennie_approaches
+1776866864686;ChoiceSelected;scene=ch2__ch2_s7_jennie_approaches|text=Try to distract yourself|goto=ch3a_balanced__ch3_sc1_after_holiday_quiet

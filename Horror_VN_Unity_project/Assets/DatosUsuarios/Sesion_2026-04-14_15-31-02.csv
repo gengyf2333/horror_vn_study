@@ -1,0 +1,8 @@
+UnixTimestamp_ms;Event;Details
+1776148262780;TestStart;Unity connected
+1776148262790;GameStart;startstory
+1776148266471;KeyPress;Space
+1776148267781;KeyPress;Space
+1776148269785;KeyPress;Space
+1776148273603;ChoiceShown;ch2_07_sister_approaches_and_subpattern
+1776148275402;ChoiceSelected;scene=ch2_07_sister_approaches_and_subpattern|text=Let my eyes follow that formless figure a little longer, just to know what it is.|goto=

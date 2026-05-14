@@ -1,0 +1,9 @@
+UnixTimestamp_ms;Event;Details
+1778079126139;TestStart;Unity connected
+1778079127224;GameStart;startstory
+1778080806258;ChoiceShown;scene_03_art_club_choice
+1778080807723;ChoiceSelected;scene=scene_03_art_club_choice|text=Check the wall clock and schedule first.|goto=scene_03b_wall_clock_schedule
+1778080833530;ChoiceShown;scene_06_gallery_choice
+1778080834571;ChoiceSelected;scene=scene_06_gallery_choice|text=Ask Hana about the wall display.|goto=scene_06b_hana_wall_display
+1778080841995;ChoiceShown;scene_09_courtyard_choice
+1778080843474;ChoiceSelected;scene=scene_09_courtyard_choice|text=Take five more minutes before returning.|goto=scene_09b_five_more_minutes

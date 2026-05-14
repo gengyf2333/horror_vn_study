@@ -1,0 +1,1167 @@
+{
+  "title": "Afternoon Arrangement",
+  "version": "1.0",
+  "language": "en",
+  "characters": [
+    {
+      "character_id": "mira",
+      "name": "Mira",
+      "role": "Main character",
+      "description": "Organized, calm, enjoys planning and making lists."
+    },
+    {
+      "character_id": "theo",
+      "name": "Theo",
+      "role": "Main character",
+      "description": "Practical, friendly, good at carrying supplies and fixing small setup issues."
+    },
+    {
+      "character_id": "hana",
+      "name": "Hana",
+      "role": "Main character",
+      "description": "Thoughtful, artistic, pays attention to colors and small details."
+    }
+  ],
+  "locations": [
+    {
+      "location_id": "school_gate",
+      "location_name": "School Gate",
+      "description": "Quiet afternoon entrance, cloudy sky, light foot traffic."
+    },
+    {
+      "location_id": "main_hallway",
+      "location_name": "Main Hallway",
+      "description": "Clean hallway with windows, a wall clock, bulletin boards, and a simple wall pattern."
+    },
+    {
+      "location_id": "art_club_room",
+      "location_name": "Art Club Room",
+      "description": "Tables, art supplies, a notebook, posters, tape, and folders."
+    },
+    {
+      "location_id": "storage_room",
+      "location_name": "Storage Room",
+      "description": "Shelves, cardboard boxes, frames, folded stands, an old radio, and a photograph on a shelf."
+    },
+    {
+      "location_id": "old_classroom_gallery",
+      "location_name": "Old Classroom Gallery",
+      "description": "Unused classroom prepared for a small exhibition, desks pushed aside, wide windows."
+    },
+    {
+      "location_id": "courtyard_garden",
+      "location_name": "Courtyard Garden",
+      "description": "Benches, small plants, calm outdoor space, light rain later in the story."
+    }
+  ],
+  "scenes": [
+    {
+      "id": "scene_01_school_gate",
+      "chapter": 1,
+      "phase": 1,
+      "bg": "school_gate_late_afternoon",
+      "leftCharacter": "mira_neutral",
+      "rightCharacter": "theo_neutral",
+      "time": "late afternoon",
+      "light": "cloudy but bright",
+      "sfx": [],
+      "bgm": "calm_afternoon",
+      "narration": [
+        "The school day had ended, and the front gate was calm.",
+        "A few soft clouds covered the sky, making the afternoon light gentle and even.",
+        "Mira stood near the gate with a canvas tote bag over one shoulder.",
+        "Inside were folders, tape, and a carefully written checklist.",
+        "She looked at the school building and smiled in a small, satisfied way.",
+        "Theo arrived next, carrying a folded poster tube under one arm.",
+        "Hana walked up soon after, holding a flat folder against her chest.",
+        "The three of them were preparing a small art exhibition for the next day.",
+        "It was not a large event, only a simple display of student sketches, watercolor studies, and photographs.",
+        "Still, they wanted the room to look neat.",
+        "Together, they walked through the gate and into the school."
+      ],
+      "dialogue": [
+        {
+          "speaker": "Theo",
+          "text": "I brought the extra posters. I checked twice this morning."
+        },
+        {
+          "speaker": "Mira",
+          "text": "Good. That saves us a trip later."
+        },
+        {
+          "speaker": "Hana",
+          "text": "I brought the title cards. They’re simple, but I think they match the exhibition."
+        },
+        {
+          "speaker": "Mira",
+          "text": "Perfect. If we work steadily, we should finish before it gets late."
+        },
+        {
+          "speaker": "Theo",
+          "text": "Art club room first?"
+        },
+        {
+          "speaker": "Mira",
+          "text": "Yes. We’ll check the supplies, then move everything to the old classroom."
+        },
+        {
+          "speaker": "Hana",
+          "text": "Let’s make it a quiet, tidy kind of exhibition."
+        }
+      ],
+      "actions": [
+        "Mira waits near the school gate with her tote bag.",
+        "Theo arrives with the poster tube.",
+        "Hana arrives with the title cards.",
+        "The three enter the school together."
+      ],
+      "choices": [],
+      "next": "scene_02_main_hallway"
+    },
+    {
+      "id": "scene_02_main_hallway",
+      "chapter": 1,
+      "phase": 2,
+      "bg": "main_hallway_afternoon",
+      "leftCharacter": "mira_neutral",
+      "rightCharacter": "hana_smile",
+      "time": "late afternoon",
+      "light": "soft window light",
+      "sfx": [
+        "clock_tick",
+        "footsteps_hallway"
+      ],
+      "bgm": "calm_afternoon",
+      "narration": [
+        "The hallway was clean and still.",
+        "Afternoon light came through the windows, forming pale rectangles on the floor.",
+        "A wall clock ticked steadily above a bulletin board covered with event notices.",
+        "Mira opened her tote bag and pulled out a notebook.",
+        "The cover was plain blue, with a small paper label that read “Exhibition Plan.”",
+        "They passed the windows.",
+        "Outside, the courtyard plants moved slightly in the wind.",
+        "Nothing seemed rushed.",
+        "The school felt ordinary and familiar after classes.",
+        "Their footsteps moved down the hallway.",
+        "They reached the art club room door and went inside."
+      ],
+      "dialogue": [
+        {
+          "speaker": "Mira",
+          "text": "I made a list: frames, stands, labels, tape, cloth, and the visitor comment sheet."
+        },
+        {
+          "speaker": "Theo",
+          "text": "And snacks?"
+        },
+        {
+          "speaker": "Mira",
+          "text": "Not on this list."
+        },
+        {
+          "speaker": "Hana",
+          "text": "Maybe next time."
+        },
+        {
+          "speaker": "Theo",
+          "text": "We have about three hours before the building closes."
+        },
+        {
+          "speaker": "Mira",
+          "text": "That should be enough."
+        },
+        {
+          "speaker": "Hana",
+          "text": "If we don’t spend twenty minutes deciding where every drawing goes."
+        },
+        {
+          "speaker": "Mira",
+          "text": "We might spend ten."
+        }
+      ],
+      "actions": [
+        "Mira shows the exhibition notebook.",
+        "Theo checks the wall clock.",
+        "The group walks toward the art club room."
+      ],
+      "choices": [],
+      "next": "scene_03_art_club_choice"
+    },
+    {
+      "id": "scene_03_art_club_choice",
+      "chapter": 1,
+      "phase": 3,
+      "bg": "art_club_room_afternoon",
+      "leftCharacter": "mira_neutral",
+      "rightCharacter": "theo_neutral",
+      "time": "late afternoon",
+      "light": "indoor afternoon light",
+      "sfx": [],
+      "bgm": "calm_planning",
+      "narration": [
+        "The art club room held several long tables.",
+        "Rolls of tape, brushes, paper scraps, and folders were arranged in small piles.",
+        "A few finished posters leaned against the wall.",
+        "Mira placed the blue notebook on the table.",
+        "Theo set down the poster tube.",
+        "Hana opened her folder and carefully removed the title cards."
+      ],
+      "dialogue": [
+        {
+          "speaker": "Mira",
+          "text": "Before we move anything, we should confirm what we have."
+        },
+        {
+          "speaker": "Theo",
+          "text": "Should we start with the notebook or the schedule?"
+        },
+        {
+          "speaker": "Hana",
+          "text": "Either is fine. We just need a starting point."
+        }
+      ],
+      "actions": [
+        "The group prepares to decide what to check first."
+      ],
+      "choices": [
+        {
+          "text": "Check the preparation notebook first.",
+          "gotoScene": "scene_03a_check_notebook"
+        },
+        {
+          "text": "Check the wall clock and schedule first.",
+          "gotoScene": "scene_03b_check_schedule"
+        }
+      ],
+      "next": null
+    },
+    {
+      "id": "scene_03a_check_notebook",
+      "chapter": 1,
+      "phase": 4,
+      "bg": "art_club_room_afternoon",
+      "leftCharacter": "mira_focused",
+      "rightCharacter": "hana_neutral",
+      "time": "late afternoon",
+      "light": "indoor afternoon light",
+      "sfx": [
+        "paper_turn"
+      ],
+      "bgm": "calm_planning",
+      "narration": [
+        "Mira opened the notebook to the first marked page.",
+        "The list was written neatly, with small boxes beside each item.",
+        "The group agreed to use the notebook as their guide."
+      ],
+      "dialogue": [
+        {
+          "speaker": "Mira",
+          "text": "Frames: eight. Stands: four. Labels: one sheet. Tape: two rolls. Cloth: one folded piece."
+        },
+        {
+          "speaker": "Theo",
+          "text": "That’s clear enough. We can check items as we find them."
+        },
+        {
+          "speaker": "Hana",
+          "text": "You even drew a room layout."
+        },
+        {
+          "speaker": "Mira",
+          "text": "A rough one. We can adjust it later."
+        }
+      ],
+      "actions": [
+        "Mira reads the checklist aloud.",
+        "Theo leans over the table.",
+        "Hana points to the room layout."
+      ],
+      "choices": [],
+      "next": "scene_03_merge_supply_check"
+    },
+    {
+      "id": "scene_03b_check_schedule",
+      "chapter": 1,
+      "phase": 4,
+      "bg": "art_club_room_afternoon",
+      "leftCharacter": "theo_thinking",
+      "rightCharacter": "mira_neutral",
+      "time": "late afternoon",
+      "light": "indoor afternoon light",
+      "sfx": [
+        "clock_tick"
+      ],
+      "bgm": "calm_planning",
+      "narration": [
+        "Theo looked up at the clock near the door.",
+        "He compared it with the note on Mira’s schedule.",
+        "They agreed to follow a simple schedule and keep moving at a steady pace."
+      ],
+      "dialogue": [
+        {
+          "speaker": "Theo",
+          "text": "If we spend thirty minutes here, one hour moving and arranging, then the rest on labels and cleanup, we’ll be fine."
+        },
+        {
+          "speaker": "Mira",
+          "text": "That sounds reasonable."
+        },
+        {
+          "speaker": "Hana",
+          "text": "Then we should not overthink the first part."
+        }
+      ],
+      "actions": [
+        "Theo checks the wall clock.",
+        "Mira reviews the schedule.",
+        "Hana places the title cards in a neat row."
+      ],
+      "choices": [],
+      "next": "scene_03_merge_supply_check"
+    },
+    {
+      "id": "scene_03_merge_supply_check",
+      "chapter": 1,
+      "phase": 5,
+      "bg": "art_club_room_afternoon",
+      "leftCharacter": "mira_neutral",
+      "rightCharacter": "theo_neutral",
+      "time": "late afternoon",
+      "light": "indoor afternoon light",
+      "sfx": [
+        "paper_check",
+        "tape_pull"
+      ],
+      "bgm": "calm_planning",
+      "narration": [
+        "With their first step decided, the three began checking supplies.",
+        "Mira marked items on the list.",
+        "Theo tested two tape rolls to make sure they still worked.",
+        "Hana checked that the title cards were clean and flat.",
+        "For a while, everything seemed to be where it belonged.",
+        "Then Mira paused.",
+        "They gathered what they had and prepared to visit the storage room."
+      ],
+      "dialogue": [
+        {
+          "speaker": "Mira",
+          "text": "The label sheet should be here, but I don’t see it on the table."
+        },
+        {
+          "speaker": "Hana",
+          "text": "It might be inside one of the folders."
+        },
+        {
+          "speaker": "Theo",
+          "text": "Or packed with the frames."
+        },
+        {
+          "speaker": "Mira",
+          "text": "It’s probably nearby. We can continue and find it as we go."
+        }
+      ],
+      "actions": [
+        "The group checks the supplies.",
+        "Mira notices the label sheet is missing from the table."
+      ],
+      "choices": [],
+      "next": "scene_04_art_club_sorting"
+    },
+    {
+      "id": "scene_04_art_club_sorting",
+      "chapter": 1,
+      "phase": 6,
+      "bg": "art_club_room_afternoon",
+      "leftCharacter": "theo_neutral",
+      "rightCharacter": "hana_neutral",
+      "time": "late afternoon",
+      "light": "indoor afternoon light",
+      "sfx": [
+        "items_sort"
+      ],
+      "bgm": "calm_planning",
+      "narration": [
+        "The group sorted the remaining items into three piles.",
+        "One pile was for items to carry now.",
+        "One pile was for items to carry later.",
+        "One pile was for items to leave behind.",
+        "The missing label sheet was still not visible, but it was a small issue.",
+        "They had blank cards if needed.",
+        "Hana’s handwriting was neat enough to make replacements.",
+        "Still, using the printed labels would be easier.",
+        "They left the art club room and walked down the hallway."
+      ],
+      "dialogue": [
+        {
+          "speaker": "Theo",
+          "text": "This can cover the front table."
+        },
+        {
+          "speaker": "Hana",
+          "text": "The color is simple. It won’t distract from the artwork."
+        },
+        {
+          "speaker": "Mira",
+          "text": "We’ll keep an eye out. For now, frames and stands."
+        },
+        {
+          "speaker": "Theo",
+          "text": "Storage room trip."
+        },
+        {
+          "speaker": "Hana",
+          "text": "I’ll keep these with me so they don’t get bent."
+        }
+      ],
+      "actions": [
+        "Theo lifts a folded cloth from a chair.",
+        "Hana examines the cloth.",
+        "Mira places a check mark beside cloth in the notebook.",
+        "Theo picks up an empty box.",
+        "Hana gathers the title cards into her folder."
+      ],
+      "choices": [],
+      "next": "scene_05_storage_room"
+    },
+    {
+      "id": "scene_05_storage_room",
+      "chapter": 1,
+      "phase": 7,
+      "bg": "storage_room_afternoon",
+      "leftCharacter": "theo_neutral",
+      "rightCharacter": "mira_neutral",
+      "time": "late afternoon",
+      "light": "ceiling light",
+      "sfx": [
+        "light_switch",
+        "box_move"
+      ],
+      "bgm": "calm_planning",
+      "narration": [
+        "The storage room was small but orderly.",
+        "Shelves lined the walls, holding cardboard boxes, spare paper, folded display stands, and old decorations from past events.",
+        "A small radio sat on one shelf beside a framed photograph of a previous school festival.",
+        "Hana looked at the photograph on the shelf.",
+        "It showed a classroom decorated with paper flowers and drawings.",
+        "The old radio had a small label on it that said “Works sometimes.”",
+        "Theo gave it a curious look but left it alone.",
+        "They carried the frames, stands, and tape out of the storage room and toward the old classroom."
+      ],
+      "dialogue": [
+        {
+          "speaker": "Theo",
+          "text": "Frames are on the second shelf."
+        },
+        {
+          "speaker": "Mira",
+          "text": "Eight frames."
+        },
+        {
+          "speaker": "Hana",
+          "text": "This room has stored a lot of school projects."
+        },
+        {
+          "speaker": "Mira",
+          "text": "That’s a nice way to put it."
+        },
+        {
+          "speaker": "Theo",
+          "text": "One, two, three… eight. All here."
+        },
+        {
+          "speaker": "Mira",
+          "text": "Display stands are here too."
+        },
+        {
+          "speaker": "Hana",
+          "text": "This might help if the posters curl."
+        },
+        {
+          "speaker": "Theo",
+          "text": "We probably don’t need background music."
+        },
+        {
+          "speaker": "Mira",
+          "text": "Maybe during setup, but not during the exhibition."
+        }
+      ],
+      "actions": [
+        "Theo turns on the ceiling light.",
+        "Theo pulls out the frames one by one.",
+        "Mira checks the notebook and another box.",
+        "Hana finds a roll of extra tape.",
+        "The group leaves with the supplies."
+      ],
+      "choices": [],
+      "next": "scene_06_gallery_choice"
+    },
+    {
+      "id": "scene_06_gallery_choice",
+      "chapter": 1,
+      "phase": 8,
+      "bg": "old_classroom_gallery_afternoon",
+      "leftCharacter": "mira_neutral",
+      "rightCharacter": "hana_neutral",
+      "time": "late afternoon",
+      "light": "soft natural light",
+      "sfx": [],
+      "bgm": "calm_arrangement",
+      "narration": [
+        "The old classroom was not used for regular lessons anymore, but it was clean and bright.",
+        "The desks had been stacked along one side.",
+        "The windows gave the room soft natural light.",
+        "A simple wall pattern ran beneath the chalkboard.",
+        "Mira set the notebook on the front desk.",
+        "Hana laid the title cards beside it.",
+        "Theo leaned the frames against the wall.",
+        "They considered the room quietly."
+      ],
+      "dialogue": [
+        {
+          "speaker": "Theo",
+          "text": "So, where do we start?"
+        },
+        {
+          "speaker": "Mira",
+          "text": "Tables first, then wall display."
+        },
+        {
+          "speaker": "Hana",
+          "text": "Or wall display first, then tables."
+        }
+      ],
+      "actions": [
+        "The group decides who to ask first about the room layout."
+      ],
+      "choices": [
+        {
+          "text": "Ask Mira about the table arrangement.",
+          "gotoScene": "scene_06a_ask_mira_tables"
+        },
+        {
+          "text": "Ask Hana about the wall display.",
+          "gotoScene": "scene_06b_ask_hana_wall"
+        }
+      ],
+      "next": null
+    },
+    {
+      "id": "scene_06a_ask_mira_tables",
+      "chapter": 1,
+      "phase": 9,
+      "bg": "old_classroom_gallery_afternoon",
+      "leftCharacter": "theo_neutral",
+      "rightCharacter": "mira_focused",
+      "time": "late afternoon",
+      "light": "soft natural light",
+      "sfx": [
+        "paper_turn"
+      ],
+      "bgm": "calm_arrangement",
+      "narration": [
+        "Theo turned to Mira.",
+        "Mira looked at her rough layout.",
+        "They began with the tables."
+      ],
+      "dialogue": [
+        {
+          "speaker": "Theo",
+          "text": "How do you want the tables?"
+        },
+        {
+          "speaker": "Mira",
+          "text": "One table near the entrance for the comment sheet, and two along the side for smaller works."
+        },
+        {
+          "speaker": "Hana",
+          "text": "That keeps the middle open."
+        },
+        {
+          "speaker": "Theo",
+          "text": "Easy to walk through."
+        }
+      ],
+      "actions": [
+        "Theo asks Mira about the table arrangement.",
+        "The group starts arranging the tables."
+      ],
+      "choices": [],
+      "next": "scene_06_merge_layout"
+    },
+    {
+      "id": "scene_06b_ask_hana_wall",
+      "chapter": 1,
+      "phase": 9,
+      "bg": "old_classroom_gallery_afternoon",
+      "leftCharacter": "mira_neutral",
+      "rightCharacter": "hana_thinking",
+      "time": "late afternoon",
+      "light": "soft natural light",
+      "sfx": [
+        "paper_note"
+      ],
+      "bgm": "calm_arrangement",
+      "narration": [
+        "Mira turned to Hana.",
+        "Hana stood back and studied the blank wall.",
+        "They began with the wall spacing."
+      ],
+      "dialogue": [
+        {
+          "speaker": "Mira",
+          "text": "What do you think about the wall display?"
+        },
+        {
+          "speaker": "Hana",
+          "text": "The larger watercolor pieces should go in the center. Smaller sketches can go around them."
+        },
+        {
+          "speaker": "Theo",
+          "text": "Balanced but not crowded."
+        },
+        {
+          "speaker": "Mira",
+          "text": "Good. Let’s use that."
+        }
+      ],
+      "actions": [
+        "Mira asks Hana about the wall display.",
+        "Theo lifts one frame slightly.",
+        "Mira writes a quick note in the margin of her layout."
+      ],
+      "choices": [],
+      "next": "scene_06_merge_layout"
+    },
+    {
+      "id": "scene_06_merge_layout",
+      "chapter": 1,
+      "phase": 10,
+      "bg": "old_classroom_gallery_afternoon",
+      "leftCharacter": "hana_neutral",
+      "rightCharacter": "theo_neutral",
+      "time": "late afternoon",
+      "light": "soft natural light",
+      "sfx": [
+        "desk_slide"
+      ],
+      "bgm": "calm_arrangement",
+      "narration": [
+        "After a few minutes, the arrangement became clear.",
+        "Tables would stay along the sides.",
+        "The central wall would hold the largest pieces.",
+        "Smaller works would fill the space around them.",
+        "The room looked simple, open, and easy to walk through."
+      ],
+      "dialogue": [
+        {
+          "speaker": "Hana",
+          "text": "This already feels better."
+        },
+        {
+          "speaker": "Theo",
+          "text": "It feels like a room that knows what it’s doing."
+        },
+        {
+          "speaker": "Mira",
+          "text": "That is the goal."
+        }
+      ],
+      "actions": [
+        "The group settles on the room arrangement."
+      ],
+      "choices": [],
+      "next": "scene_07_gallery_arranging"
+    },
+    {
+      "id": "scene_07_gallery_arranging",
+      "chapter": 1,
+      "phase": 11,
+      "bg": "old_classroom_gallery_afternoon",
+      "leftCharacter": "mira_focused",
+      "rightCharacter": "hana_neutral",
+      "time": "late afternoon",
+      "light": "soft natural light",
+      "sfx": [
+        "tape_pull",
+        "clock_tick_faint"
+      ],
+      "bgm": "calm_arrangement",
+      "narration": [
+        "They worked steadily.",
+        "Theo unfolded the display stands and checked that each one stood straight.",
+        "Mira placed frames on the tables in the order written in the notebook.",
+        "Hana adjusted the spacing between artworks.",
+        "She stepped back every few minutes to compare the distance.",
+        "The wall clock in the hallway could be heard faintly whenever the classroom door was open.",
+        "Its sound was ordinary, marking time without hurry.",
+        "The missing label sheet had still not appeared.",
+        "They had enough title cards to continue.",
+        "Mira made a note to check the notebook pocket later.",
+        "For now, the room was taking shape."
+      ],
+      "dialogue": [
+        {
+          "speaker": "Mira",
+          "text": "Straight?"
+        },
+        {
+          "speaker": "Hana",
+          "text": "A little to the left."
+        },
+        {
+          "speaker": "Hana",
+          "text": "Now it’s straight."
+        },
+        {
+          "speaker": "Theo",
+          "text": "Comment sheet goes here?"
+        },
+        {
+          "speaker": "Mira",
+          "text": "Yes. Along with a pen."
+        },
+        {
+          "speaker": "Theo",
+          "text": "One main pen, one backup pen."
+        },
+        {
+          "speaker": "Hana",
+          "text": "Very official."
+        }
+      ],
+      "actions": [
+        "Mira tapes the first title card beneath a watercolor study.",
+        "Hana checks the alignment.",
+        "Theo places the folded cloth over the front table.",
+        "Theo finds two pens in the supply box."
+      ],
+      "choices": [],
+      "next": "scene_08_courtyard_break"
+    },
+    {
+      "id": "scene_08_courtyard_break",
+      "chapter": 1,
+      "phase": 12,
+      "bg": "courtyard_garden_rain",
+      "leftCharacter": "theo_neutral",
+      "rightCharacter": "mira_neutral",
+      "time": "late afternoon",
+      "light": "cloudy rain light",
+      "sfx": [
+        "light_rain"
+      ],
+      "bgm": "calm_rain",
+      "narration": [
+        "After an hour of arranging, they decided to step outside for a short break.",
+        "The courtyard garden was quiet.",
+        "A few benches sat between small plants.",
+        "The air smelled clean.",
+        "Light rain began to fall.",
+        "It was soft enough that they could remain under the covered walkway without getting wet.",
+        "Raindrops made small circles in a shallow puddle near the plants.",
+        "The sound was even and calm.",
+        "They rested quietly for a moment, watching the ordinary rhythm of the rain."
+      ],
+      "dialogue": [
+        {
+          "speaker": "Theo",
+          "text": "Carrying frames counts as exercise."
+        },
+        {
+          "speaker": "Hana",
+          "text": "Arranging frames counts as patience."
+        },
+        {
+          "speaker": "Mira",
+          "text": "We are doing fine."
+        },
+        {
+          "speaker": "Hana",
+          "text": "The rain makes the light softer. The room might look nice this way."
+        },
+        {
+          "speaker": "Theo",
+          "text": "Good exhibition weather."
+        },
+        {
+          "speaker": "Mira",
+          "text": "We still have enough time for labels and cleanup."
+        }
+      ],
+      "actions": [
+        "Theo stretches his arms.",
+        "Mira sits on the bench and closes the notebook over her lap.",
+        "Hana looks toward the classroom windows.",
+        "Mira checks the time."
+      ],
+      "choices": [],
+      "next": "scene_09_courtyard_choice"
+    },
+    {
+      "id": "scene_09_courtyard_choice",
+      "chapter": 1,
+      "phase": 13,
+      "bg": "courtyard_garden_rain",
+      "leftCharacter": "theo_neutral",
+      "rightCharacter": "hana_neutral",
+      "time": "late afternoon",
+      "light": "cloudy rain light",
+      "sfx": [
+        "light_rain"
+      ],
+      "bgm": "calm_rain",
+      "narration": [
+        "The break had been short, but useful.",
+        "The group had to decide how to spend the next few minutes."
+      ],
+      "dialogue": [
+        {
+          "speaker": "Theo",
+          "text": "Should we go back now, or take five more minutes?"
+        },
+        {
+          "speaker": "Hana",
+          "text": "Either works."
+        },
+        {
+          "speaker": "Mira",
+          "text": "As long as we finish the labels."
+        }
+      ],
+      "actions": [
+        "The group considers whether to return immediately or rest a little longer."
+      ],
+      "choices": [
+        {
+          "text": "Continue preparing right away.",
+          "gotoScene": "scene_09a_continue_now"
+        },
+        {
+          "text": "Take five more minutes before returning.",
+          "gotoScene": "scene_09b_five_more_minutes"
+        }
+      ],
+      "next": null
+    },
+    {
+      "id": "scene_09a_continue_now",
+      "chapter": 1,
+      "phase": 14,
+      "bg": "courtyard_garden_rain",
+      "leftCharacter": "mira_neutral",
+      "rightCharacter": "theo_neutral",
+      "time": "late afternoon",
+      "light": "cloudy rain light",
+      "sfx": [
+        "light_rain",
+        "footsteps"
+      ],
+      "bgm": "calm_rain",
+      "narration": [
+        "Mira stood and tucked the notebook under her arm.",
+        "They returned to the old classroom."
+      ],
+      "dialogue": [
+        {
+          "speaker": "Mira",
+          "text": "Let’s finish while we still have energy."
+        },
+        {
+          "speaker": "Theo",
+          "text": "Good plan."
+        },
+        {
+          "speaker": "Hana",
+          "text": "I want to see the whole display finished."
+        }
+      ],
+      "actions": [
+        "Theo picks up the extra tape.",
+        "Hana brushes a few raindrops from her sleeve.",
+        "The group heads back inside."
+      ],
+      "choices": [],
+      "next": "scene_09_merge_return_gallery"
+    },
+    {
+      "id": "scene_09b_five_more_minutes",
+      "chapter": 1,
+      "phase": 14,
+      "bg": "courtyard_garden_rain",
+      "leftCharacter": "theo_neutral",
+      "rightCharacter": "hana_neutral",
+      "time": "late afternoon",
+      "light": "cloudy rain light",
+      "sfx": [
+        "light_rain"
+      ],
+      "bgm": "calm_rain",
+      "narration": [
+        "They stayed under the covered walkway a little longer.",
+        "Theo leaned back against the bench and listened to the rain.",
+        "After the short pause, they returned to the old classroom."
+      ],
+      "dialogue": [
+        {
+          "speaker": "Theo",
+          "text": "Five minutes is enough to feel like a real break."
+        },
+        {
+          "speaker": "Hana",
+          "text": "The leaves look brighter after rain starts."
+        },
+        {
+          "speaker": "Mira",
+          "text": "All right. Five minutes, then labels."
+        }
+      ],
+      "actions": [
+        "Hana looks at the plants.",
+        "Mira glances at the notebook but does not open it.",
+        "The group returns after five more minutes."
+      ],
+      "choices": [],
+      "next": "scene_09_merge_return_gallery"
+    },
+    {
+      "id": "scene_09_merge_return_gallery",
+      "chapter": 1,
+      "phase": 15,
+      "bg": "old_classroom_gallery_rain",
+      "leftCharacter": "mira_neutral",
+      "rightCharacter": "hana_neutral",
+      "time": "late afternoon",
+      "light": "gray afternoon window light",
+      "sfx": [
+        "rain_window"
+      ],
+      "bgm": "calm_arrangement",
+      "narration": [
+        "The old classroom looked calm when they came back.",
+        "The windows showed the gray afternoon sky.",
+        "The artwork stood neatly in place."
+      ],
+      "dialogue": [
+        {
+          "speaker": "Mira",
+          "text": "Final tasks: labels, comment sheet, and cleanup."
+        },
+        {
+          "speaker": "Theo",
+          "text": "Ready."
+        },
+        {
+          "speaker": "Hana",
+          "text": "Let’s finish."
+        }
+      ],
+      "actions": [
+        "Mira opens the notebook again.",
+        "Theo places the pens on the front table.",
+        "Hana lines up the remaining title cards."
+      ],
+      "choices": [],
+      "next": "scene_10_final_details"
+    },
+    {
+      "id": "scene_10_final_details",
+      "chapter": 1,
+      "phase": 16,
+      "bg": "old_classroom_gallery_rain",
+      "leftCharacter": "mira_neutral",
+      "rightCharacter": "hana_smile",
+      "time": "late afternoon",
+      "light": "gray afternoon window light",
+      "sfx": [
+        "paper_slip",
+        "tape_pull"
+      ],
+      "bgm": "calm_completion",
+      "narration": [
+        "They began attaching the last title cards.",
+        "Hana wrote two small replacement labels by hand, just in case the printed sheet did not turn up.",
+        "Her handwriting was clear and even.",
+        "Mira flipped through the notebook to compare the artwork order.",
+        "As she turned to the back cover, a folded paper slipped out of the inside pocket and landed on the desk.",
+        "The printed labels matched the artwork list.",
+        "They replaced the temporary handwritten ones.",
+        "Hana kept the handwritten cards in the folder as spares.",
+        "The exhibition was ready."
+      ],
+      "dialogue": [
+        {
+          "speaker": "Theo",
+          "text": "Is that the label sheet?"
+        },
+        {
+          "speaker": "Mira",
+          "text": "Yes. I put it in the pocket so it wouldn’t bend."
+        },
+        {
+          "speaker": "Hana",
+          "text": "That is a very organized way to misplace something."
+        },
+        {
+          "speaker": "Mira",
+          "text": "Accurate."
+        },
+        {
+          "speaker": "Theo",
+          "text": "Nothing is loose."
+        },
+        {
+          "speaker": "Mira",
+          "text": "Everything on the list is done."
+        },
+        {
+          "speaker": "Hana",
+          "text": "It feels simple, but complete."
+        }
+      ],
+      "actions": [
+        "Theo notices the folded paper.",
+        "Mira unfolds the printed label sheet.",
+        "Theo walks around the room and checks the tape.",
+        "Mira places the comment sheet on the front table.",
+        "Mira sets the backup pen beside it.",
+        "Hana stands near the entrance and looks over the room."
+      ],
+      "choices": [],
+      "next": "scene_11_preview"
+    },
+    {
+      "id": "scene_11_preview",
+      "chapter": 1,
+      "phase": 17,
+      "bg": "old_classroom_gallery_finished",
+      "leftCharacter": "mira_neutral",
+      "rightCharacter": "theo_happy",
+      "time": "late afternoon",
+      "light": "soft rainy window light",
+      "sfx": [
+        "soft_footsteps",
+        "pen_write",
+        "rain_window"
+      ],
+      "bgm": "calm_completion",
+      "narration": [
+        "A short preview was held before the building closed.",
+        "A few visitors passed through quietly, looking at the artwork and reading the labels.",
+        "No one stayed long.",
+        "Several people wrote brief comments on the sheet.",
+        "The room remained calm.",
+        "The rain outside softened the window light.",
+        "The finished artwork gave the old classroom a gentle sense of purpose.",
+        "Mira looked at her notebook one last time.",
+        "Every box on the checklist had been marked.",
+        "They shared a small laugh, quiet enough not to disturb the room."
+      ],
+      "dialogue": [
+        {
+          "speaker": "Mira",
+          "text": "The comment sheet is being used."
+        },
+        {
+          "speaker": "Theo",
+          "text": "Backup pen was unnecessary, but still wise."
+        },
+        {
+          "speaker": "Hana",
+          "text": "The spacing works. Nothing feels crowded."
+        },
+        {
+          "speaker": "Mira",
+          "text": "We finished on time."
+        },
+        {
+          "speaker": "Theo",
+          "text": "And without moving the same table six times."
+        },
+        {
+          "speaker": "Hana",
+          "text": "Only twice."
+        }
+      ],
+      "actions": [
+        "Mira stands near the front table with her hands folded loosely.",
+        "Theo looks pleased.",
+        "Hana watches someone pause in front of the central watercolor display."
+      ],
+      "choices": [],
+      "next": "scene_12_cleanup_and_departure"
+    },
+    {
+      "id": "scene_12_cleanup_and_departure",
+      "chapter": 1,
+      "phase": 18,
+      "bg": "main_hallway_evening",
+      "leftCharacter": "mira_neutral",
+      "rightCharacter": "hana_neutral",
+      "time": "early evening",
+      "light": "warm hallway lights and soft mist outside",
+      "sfx": [
+        "box_carry",
+        "footsteps_hallway",
+        "light_mist"
+      ],
+      "bgm": "calm_ending",
+      "narration": [
+        "After the preview ended, the three cleaned up the extra supplies.",
+        "The unused tape, spare cards, and empty boxes were returned to the art club room.",
+        "The frames and artwork stayed in the old classroom for the next day.",
+        "The hallway lights had turned warmer as evening approached.",
+        "The wall clock showed that they had finished with time to spare.",
+        "They walked toward the school gate together.",
+        "Outside, the rain had slowed to a fine mist.",
+        "The ground reflected the soft evening light.",
+        "At the gate, they paused for a moment.",
+        "The three said goodbye and headed home in different directions.",
+        "The day had been ordinary, steady, and productive.",
+        "Their work was finished, and the exhibition would be ready in the morning."
+      ],
+      "dialogue": [
+        {
+          "speaker": "Theo",
+          "text": "Today went smoothly."
+        },
+        {
+          "speaker": "Hana",
+          "text": "It helped that everyone had a role."
+        },
+        {
+          "speaker": "Mira",
+          "text": "Tomorrow, we only need to open the room and make sure the pens are there."
+        },
+        {
+          "speaker": "Theo",
+          "text": "Both pens."
+        },
+        {
+          "speaker": "Mira",
+          "text": "Both pens."
+        },
+        {
+          "speaker": "Hana",
+          "text": "The classroom looked different after everything was arranged."
+        },
+        {
+          "speaker": "Theo",
+          "text": "Still a classroom, but more welcoming."
+        },
+        {
+          "speaker": "Mira",
+          "text": "That is enough for a small exhibition."
+        }
+      ],
+      "actions": [
+        "Theo carries the empty box under one arm.",
+        "Hana holds her folder against her chest.",
+        "Mira closes the blue notebook and places it in her tote bag.",
+        "The group walks from the hallway to the school gate.",
+        "Mira looks back at the building before leaving."
+      ],
+      "choices": [],
+      "next": null
+    }
+  ]
+}

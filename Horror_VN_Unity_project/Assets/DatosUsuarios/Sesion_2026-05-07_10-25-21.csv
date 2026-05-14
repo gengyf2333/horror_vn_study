@@ -1,0 +1,5 @@
+UnixTimestamp_ms;Event;Details
+1778117121589;TestStart;Unity connected
+1778117127099;GameStart;startstory
+1778117136146;ChoiceShown;scene_03_art_club_choice
+1778117137982;ChoiceSelected;scene=scene_03_art_club_choice|text=Check the preparation notebook first.|goto=scene_03a_preparation_notebook

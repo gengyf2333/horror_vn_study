@@ -1,0 +1,9 @@
+UnixTimestamp_ms;Event;Details
+1778064403453;GameStart;startstory
+1778064403460;TestStart;Unity connected
+1778064408346;ChoiceShown;scene_03_art_club_choice
+1778064409081;ChoiceSelected;scene=scene_03_art_club_choice|text=Check the preparation notebook first.|goto=scene_03a_preparation_notebook
+1778064417171;ChoiceShown;scene_06_gallery_choice
+1778064418179;ChoiceSelected;scene=scene_06_gallery_choice|text=Ask Mira about the table arrangement.|goto=scene_06a_mira_tables
+1778064425342;ChoiceShown;scene_09_courtyard_choice
+1778064426908;ChoiceSelected;scene=scene_09_courtyard_choice|text=Take five more minutes before returning.|goto=scene_09b_five_more_minutes

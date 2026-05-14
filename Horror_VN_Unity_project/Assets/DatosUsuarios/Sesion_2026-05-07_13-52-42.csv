@@ -1,0 +1,9 @@
+UnixTimestamp_ms;Event;Details
+1778129562228;TestStart;Unity connected
+1778129563635;GameStart;startstory
+1778129573158;ChoiceShown;scene_03_art_club_choice
+1778129575031;ChoiceSelected;scene=scene_03_art_club_choice|text=Check the wall clock and schedule first.|goto=scene_03b_check_schedule
+1778129580968;ChoiceShown;scene_06_gallery_choice
+1778129582616;ChoiceSelected;scene=scene_06_gallery_choice|text=Ask Mira about the table arrangement.|goto=scene_06a_ask_mira_tables
+1778129587216;ChoiceShown;scene_09_courtyard_choice
+1778129587894;ChoiceSelected;scene=scene_09_courtyard_choice|text=Continue preparing right away.|goto=scene_09a_continue_now

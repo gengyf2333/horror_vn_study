@@ -1,0 +1,5 @@
+UnixTimestamp_ms;Event;Details
+1777450880545;GameStart;startstory
+1777450880560;TestStart;Unity connected
+1777450962018;ChoiceShown;ch2__ch2_s10_three_reactions_choice
+1777451013438;ChoiceSelected;scene=ch2__ch2_s10_three_reactions_choice|text=Straight into the darkness|goto=ch3_rapid__ch3_re_001

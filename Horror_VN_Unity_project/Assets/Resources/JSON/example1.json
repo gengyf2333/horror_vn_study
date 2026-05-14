@@ -1,0 +1,116 @@
+{
+  "scenes": [
+    {
+      "id": "scene_1",
+      "type": "story",
+      "background": "school_rooftop_afternoon",
+      "characters": ["Aoi"],
+      "content": [
+        {
+          "speaker": "Narration",
+          "text": "Aoi waits for you on the rooftop, gazing at the horizon. The wind ruffles her hair slightly."
+        },
+        {
+          "speaker": "Aoi",
+          "text": "Hey… thanks for coming. I wanted to talk to you."
+        },
+        {
+          "speaker": "Player",
+          "text": "Sure, Aoi. What's on your mind?"
+        },
+        {
+          "speaker": "Aoi",
+          "text": "I… I’m going to transfer schools next month."
+        },
+        {
+          "speaker": "Narration",
+          "text": "Her voice trembles as she looks down, hugging her arms. You can see her eyes glisten with unshed tears."
+        },
+        {
+          "speaker": "Aoi",
+          "text": "I just… wanted to say goodbye properly. But… I feel so sad."
+        }
+      ],
+      "next": "scene_1_choice"
+    },
+    {
+      "id": "scene_1_choice",
+      "type": "choice",
+      "background": "school_rooftop_afternoon",
+      "choices": [
+        {
+          "id": "choice_1",
+          "text": "Comfort Aoi gently",
+          "next": "scene_2_comfort"
+        },
+        {
+          "id": "choice_2",
+          "text": "Play a trick: point to a bug nearby",
+          "next": "scene_2_bug"
+        }
+      ]
+    },
+    {
+      "id": "scene_2_comfort",
+      "type": "story",
+      "background": "school_rooftop_afternoon",
+      "characters": ["Aoi"],
+      "content": [
+        {
+          "speaker": "Player",
+          "text": "It’s okay, Aoi. I know it’s hard, but I hope this new place will be good for you."
+        },
+        {
+          "speaker": "Narration",
+          "text": "She looks up at you, a small smile forming. Her shoulders relax slightly."
+        },
+        {
+          "speaker": "Aoi",
+          "text": "Thank you… I really needed to hear that."
+        },
+        {
+          "speaker": "Narration",
+          "text": "The sadness lingers, but your words seem to soothe her, making the farewell a bit lighter."
+        }
+      ],
+      "next": null
+    },
+    {
+      "id": "scene_2_bug",
+      "type": "story",
+      "background": "school_rooftop_afternoon",
+      "characters": ["Aoi"],
+      "content": [
+        {
+          "speaker": "Player",
+          "text": "Hey, look over there!"
+        },
+        {
+          "speaker": "Narration",
+          "text": "You point to a small bug crawling near her feet. Aoi jumps back with a squeal, tears forming instantly."
+        },
+        {
+          "speaker": "Aoi",
+          "text": "Eek! W-what is that?!"
+        },
+        {
+          "speaker": "Player",
+          "text": "Don't worry, I’ll handle it!"
+        },
+        {
+          "speaker": "Narration",
+          "text": "You carefully remove the bug. Aoi watches, her tension slowly easing. She wipes her tears and giggles nervously."
+        },
+        {
+          "speaker": "Aoi",
+          "text": "Haha… you’re ridiculous! I was so scared, but… I feel better now."
+        },
+        {
+          "speaker": "Narration",
+          "text": "Her smile returns, genuine and relaxed. The sadness from before fades slightly, replaced by warmth and laughter."
+        }
+      ],
+      "next": null
+    }
+  ]
+}

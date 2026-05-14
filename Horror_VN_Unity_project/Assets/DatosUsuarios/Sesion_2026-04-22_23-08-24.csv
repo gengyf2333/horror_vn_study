@@ -1,0 +1,5 @@
+UnixTimestamp_ms;Event;Details
+1776866904075;GameStart;startstory
+1776866904085;TestStart;Unity connected
+1776866913747;ChoiceShown;ch2__ch2_s7_jennie_approaches
+1776866914784;ChoiceSelected;scene=ch2__ch2_s7_jennie_approaches|text=Study it until it resolves|goto=ch3a_rapid__ch3_re_01

@@ -1,0 +1,5 @@
+UnixTimestamp_ms;Event;Details
+1776840775810;GameStart;startstory
+1776840775818;TestStart;Unity connected
+1776840783735;ChoiceShown;ch2__ch2_s8_subpattern_branch
+1776840786413;ChoiceSelected;scene=ch2__ch2_s8_subpattern_branch|text=Hide the writing quickly|goto=ch3a_slow__ch3a_s01_july_after_company

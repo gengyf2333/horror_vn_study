@@ -1,0 +1,5 @@
+UnixTimestamp_ms;Event;Details
+1776832144004;GameStart;startstory
+1776832144033;TestStart;Unity connected
+1776832154138;ChoiceShown;ch2__ch2_s5_jennie_approaches_branch
+1776832155567;ChoiceSelected;scene=ch2__ch2_s5_jennie_approaches_branch|text=Confront the feeling, stay alert|goto=ch3a_rapid__ch3a_s1_after_company

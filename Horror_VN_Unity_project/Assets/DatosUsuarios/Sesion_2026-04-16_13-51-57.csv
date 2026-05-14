@@ -1,0 +1,5 @@
+UnixTimestamp_ms;Event;Details
+1776315117173;GameStart;startstory
+1776315117181;TestStart;Unity connected
+1776315169772;ChoiceShown;ch2_s6_ravages_jennie_approaches
+1776315185919;ChoiceSelected;scene=ch2_s6_ravages_jennie_approaches|text=Keep watching the shifting pattern|goto=

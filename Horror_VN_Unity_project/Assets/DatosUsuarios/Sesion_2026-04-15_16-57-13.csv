@@ -1,0 +1,14 @@
+UnixTimestamp_ms;Event;Details
+1776239833325;GameStart;startstory
+1776239833343;TestStart;Unity connected
+1776239834600;KeyPress;Space
+1776239834926;KeyPress;Space
+1776239835331;KeyPress;Space
+1776239835818;KeyPress;Space
+1776239836179;KeyPress;Space
+1776239836456;KeyPress;Space
+1776239836703;KeyPress;Space
+1776239836967;KeyPress;Space
+1776239837146;KeyPress;Space
+1776239841638;ChoiceShown;ch2_s5_sister_on_stairs_choice
+1776239843326;ChoiceSelected;scene=ch2_s5_sister_on_stairs_choice|text=Slip my writing away, but keep watching in the certain light to make sure what I saw behind the pattern.|goto=

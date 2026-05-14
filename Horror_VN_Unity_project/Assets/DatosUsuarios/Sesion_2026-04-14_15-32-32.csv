@@ -1,0 +1,4 @@
+UnixTimestamp_ms;Event;Details
+1776148352301;TestStart;Unity connected
+1776148352309;GameStart;startstory
+1776148357966;ChoiceShown;ch2_07_sister_approaches_and_subpattern

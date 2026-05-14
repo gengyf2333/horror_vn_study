@@ -1,0 +1,5 @@
+UnixTimestamp_ms;Event;Details
+1776868018676;GameStart;startstory
+1776868018691;TestStart;Unity connected
+1776868055188;ChoiceShown;ch2__ch2_12_subpattern_figure_and_branch
+1776868075637;ChoiceSelected;scene=ch2__ch2_12_subpattern_figure_and_branch|text=Look away and compose yourself|goto=ch3a_slow__ch3_sb_01_after_july_company

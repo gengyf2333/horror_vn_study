@@ -1,0 +1,16 @@
+UnixTimestamp_ms;Event;Details
+1777448944775;GameStart;startstory
+1777448944785;TestStart;Unity connected
+1777448946115;KeyPress;Space
+1777448946690;KeyPress;Space
+1777448947357;KeyPress;Space
+1777448948139;KeyPress;Space
+1777448949839;KeyPress;Space
+1777448951210;KeyPress;Space
+1777448951491;KeyPress;Space
+1777448951740;KeyPress;Space
+1777448952035;KeyPress;Space
+1777448952649;KeyPress;Space
+1777448953592;KeyPress;Space
+1777449030809;ChoiceShown;ch2__ch2_s10_three_reactions_choice
+1777449032883;ChoiceSelected;scene=ch2__ch2_s10_three_reactions_choice|text=不再深究|goto=ch3_slow__ch3_sb_01

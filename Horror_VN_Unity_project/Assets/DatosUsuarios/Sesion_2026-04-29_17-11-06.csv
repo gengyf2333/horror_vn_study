@@ -1,0 +1,5 @@
+UnixTimestamp_ms;Event;Details
+1777450266221;GameStart;startstory
+1777450266232;TestStart;Unity connected
+1777450415997;ChoiceShown;ch2__ch2_s10_three_reactions_choice
+1777450424700;ChoiceSelected;scene=ch2__ch2_s10_three_reactions_choice|text=不再深究|goto=ch3_slow__ch3_sb_01

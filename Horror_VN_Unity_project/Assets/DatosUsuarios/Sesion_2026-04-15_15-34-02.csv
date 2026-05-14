@@ -1,0 +1,5 @@
+UnixTimestamp_ms;Event;Details
+1776234842167;GameStart;startstory
+1776234842175;TestStart;Unity connected
+1776234860302;ChoiceShown;ch2_07_sister_approaches_and_subpattern
+1776234861247;ChoiceSelected;scene=ch2_07_sister_approaches_and_subpattern|text=Put the thought away at once, for it is only fancy, and I must not begin again.|goto=

@@ -1,0 +1,7 @@
+UnixTimestamp_ms;Event;Details
+1776866694627;GameStart;startstory
+1776866694656;TestStart;Unity connected
+1776866709186;ChoiceShown;ch2__ch2_s7_jennie_approaches
+1776866717340;ChoiceSelected;scene=ch2__ch2_s7_jennie_approaches|text=Keep watching the pattern|goto=ch3a_slow__ch3_sb_01_july_company
+1776866746365;ChoiceShown;ch3a_slow__ch3_sb_11_dim_shapes_begin
+1776866753593;ChoiceSelected;scene=ch3a_slow__ch3_sb_11_dim_shapes_begin|text=Watch it longer|goto=ch3a_slow__ch3_sb_12_moonlight_watch_and_touch

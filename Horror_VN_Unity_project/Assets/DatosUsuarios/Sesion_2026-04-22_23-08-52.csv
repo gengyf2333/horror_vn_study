@@ -1,0 +1,7 @@
+UnixTimestamp_ms;Event;Details
+1776866932690;GameStart;startstory
+1776866932701;TestStart;Unity connected
+1776866942230;ChoiceShown;ch2__ch2_s7_jennie_approaches
+1776866943069;ChoiceSelected;scene=ch2__ch2_s7_jennie_approaches|text=Keep watching the pattern|goto=ch3a_slow__ch3_sb_01_july_company
+1776866947085;ChoiceShown;ch3a_slow__ch3_sb_11_dim_shapes_begin
+1776866951354;ChoiceSelected;scene=ch3a_slow__ch3_sb_11_dim_shapes_begin|text=Try to sleep instead|goto=ch3a_slow__ch3_sb_12_moonlight_watch_and_touch

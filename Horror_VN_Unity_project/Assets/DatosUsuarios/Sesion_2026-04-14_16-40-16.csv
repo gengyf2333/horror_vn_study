@@ -1,0 +1,4 @@
+UnixTimestamp_ms;Event;Details
+1776152416561;TestStart;Unity connected
+1776152416569;GameStart;startstory
+1776152421624;KeyPress;Space

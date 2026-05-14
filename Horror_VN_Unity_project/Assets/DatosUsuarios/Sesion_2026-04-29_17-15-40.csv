@@ -1,0 +1,5 @@
+UnixTimestamp_ms;Event;Details
+1777450540435;GameStart;startstory
+1777450540445;TestStart;Unity connected
+1777450549047;ChoiceShown;ch2__ch2_s10_three_reactions_choice
+1777450551287;ChoiceSelected;scene=ch2__ch2_s10_three_reactions_choice|text=查明真相|goto=ch3_balanced__ch3_s1_investigation_start

@@ -1,0 +1,5 @@
+UnixTimestamp_ms;Event;Details
+1778081613347;TestStart;Unity connected
+1778081614691;GameStart;startstory
+1778081628039;ChoiceShown;scene_03_art_club_choice
+1778081629823;ChoiceSelected;scene=scene_03_art_club_choice|text=Check the wall clock and schedule first.|goto=scene_03b_check_schedule

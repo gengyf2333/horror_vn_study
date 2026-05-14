@@ -1,0 +1,14 @@
+Welcome to this VN project!
+
+See the previous online tutorial website repo first.
+https://github.com/ZifanYE/UnityVNforGCCE/tree/main
+
+If you want to create your own character:
+
+1. You need to modify the codes of text generation to define the name.
+
+2. Create a folder(which name it with "YourCharacterName") in ./Resources/Images/Characters/
+Don't forget to change the texture type of all images inside.
+
+3. Create the prefab of your character in ./Resources/Characters/Character["YourCharacterName"]
+You can try to select the image of 2. to see the performance first to modify the size of the character.

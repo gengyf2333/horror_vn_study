@@ -1,0 +1,5 @@
+UnixTimestamp_ms;Event;Details
+1776235403628;GameStart;startstory
+1776235403638;TestStart;Unity connected
+1776235425230;ChoiceShown;ch2_07_sister_approaches_and_subpattern
+1776235426882;ChoiceSelected;scene=ch2_07_sister_approaches_and_subpattern|text=Turn from the wall and watch the stair, keeping my mind as steady as I can.|goto=

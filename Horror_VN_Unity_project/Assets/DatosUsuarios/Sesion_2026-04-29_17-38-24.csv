@@ -1,0 +1,5 @@
+UnixTimestamp_ms;Event;Details
+1777451904073;GameStart;startstory
+1777451904084;TestStart;Unity connected
+1777451912973;ChoiceShown;ch2__ch2_s10_three_reactions_choice
+1777451986277;ChoiceSelected;scene=ch2__ch2_s10_three_reactions_choice|text=No need to dig any deeper.|goto=ch3_slow__ch3_sb_01
