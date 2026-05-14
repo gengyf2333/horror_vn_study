@@ -1,5 +1,7 @@
 # Horror Visual Novel Study Pipeline
 
+This repository is bulit for the paper:Can LLMs Generate Horror Atmosphere in Visual Novels? A Preliminary Player-Affect Evaluation
+
 This repository contains a simple pipeline for generating a visual novel story, converting it into a Unity-readable JSON format, generating visual assets, and analysing the user study data.
 
 The project has two main parts:
@@ -21,31 +23,31 @@ project_root/
 │   ├── convert_story_to_json.py
 │   ├── image_generate_list.py
 │   ├── generate_image.py
-│   ├── analyse_user_study_csv_style_prepost_only_v2.py
-│   ├── panas_prepost_only.py
-│   └── guess_annoyance_prepost_only.py
 ├── prompt/
 │   ├── neutral_novel.txt
 │   ├── horror_novel.txt
 │   ├── convert_json.txt
 │   └── image_list.txt
-├── outputs/
-└── User Study Pre.csv
-└── User Study Post.csv
-```
+├── data_analysis/
+│   ├── User Study Pre.csv
+│   ├── User Study Post.csv
+│   ├── analyse_user_study_csv_style_prepost_only_v2.py
+│   ├── guess_horror_prepost_only.py
+│   └── panas_prepost_only.py
+└── Horror_VN_Unity_project/
 
+```
+The `code/` folder stores all codes to generate story and visual novel related things.
 The `prompt/` folder stores the prompt templates.  
-The `outputs/` folder stores generated stories, JSON files, asset prompt lists, images, and analysis results.
+The `data_analysis/` folder stores questionnaires, raw questionnaire results and code to analyse raw data
+The `Horror_VN_Unity_project/` folder stores the visual novel game powered by Unity.
 
 ---
 
 ## 2. Requirements
 
-Install the required Python packages:
+- **Unity Version**: Ensure you have **Unity 2022.3.62f1** installed. You can download it from the [Unity Hub](https://unity.com/download).
 
-```bash
-pip install openai pandas numpy scipy
-```
 
 The generation scripts use the OpenAI API. Before running them, replace the placeholder API key in the scripts:
 
@@ -53,31 +55,8 @@ The generation scripts use the OpenAI API. Before running them, replace the plac
 OPENAI_API_KEY = "sk-proj-xxxxxxxx"
 ```
 
-Please do not upload a real API key to GitHub.
-
 ---
 
-## 3. Prompt Files
-
-The `prompt/` folder contains four prompt templates:
-
-```text
-prompt/neutral_novel.txt
-prompt/horror_novel.txt
-prompt/convert_json.txt
-prompt/image_list.txt
-```
-
-Their roles are:
-
-```text
-neutral_novel.txt  -> used to generate the neutral VN story
-horror_novel.txt   -> used to rewrite the neutral story into a horrorified story
-convert_json.txt   -> used to convert story text into Unity-readable JSON
-image_list.txt     -> used to generate image prompts from the VN JSON
-```
-
----
 
 ## 4. Generation Pipeline
 
