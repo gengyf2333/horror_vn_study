@@ -10,6 +10,7 @@ The project has two main parts:
 2. **Data analysis pipeline**: analyses the pre-game and post-game questionnaire results.
 
 The `demo_video/` folder contains an HTML page with links to the game demo videos.
+👉 [Open the game demo page](https://gengyf2333.github.io/horror_vn_study/demo_video/)
 
 ---
 
